@@ -26,8 +26,8 @@
               </template>
                 <!-- Pager-->
                 <div class="d-flex justify-content-end mb-4">
-                  <Pager :info="$page.posts.pageInfo" :showLinks="false" linkClass="aa" :range="0" nextLabel="Older Posts →<"/>
-                  <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
+                  <Pager :info="$page.posts.pageInfo"/>
+                  <!-- <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a> -->
                   
                 </div>
             </div>
