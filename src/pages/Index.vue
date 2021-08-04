@@ -12,7 +12,7 @@
                <template v-for="item in $page.posts.edges">
                 <!-- Post preview-->
                 <div class="post-preview" :key="item.node.id">
-                  <g-link to="/">
+                  <g-link :to="'/post/'+item.node.id">
                    <h2 class="post-title">{{ item.node.title }}</h2>
                   </g-link>
                   <p class="post-meta">
