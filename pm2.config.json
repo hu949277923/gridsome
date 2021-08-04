@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "blog-gridsome",
+      "script": "npm",
+      "args": "start"
+    }
+  ]
+}
