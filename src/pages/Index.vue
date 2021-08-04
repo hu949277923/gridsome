@@ -36,8 +36,8 @@
   </Layout>
 </template>
 <page-query>
-query {
-  posts: allStrapiPost(page: 1, perPage: 2) @paginate {
+query ($page: Int){
+  posts: allStrapiPost(page: $page, perPage: 2) @paginate {
     pageInfo {
       totalPages
       currentPage
